@@ -1,0 +1,114 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+*{
+    /* outline: 1px solid red; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.flex-container{
+    display: flex;
+}
+header{
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu.flex-container{
+    justify-content: flex-start;
+}
+.logo-container{
+    margin-left: auto;
+    /* margin-right: 20px; */
+}
+.flex-container .logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 42px;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.link{
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+}
+.logo{
+    /* position: relative; */
+      float: right; 
+      /* left:right;   */
+}
+
+#home{
+    height: 600px;
+    margin-top: 70px;
+    background-image: url(../img/bg-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+.text-home{
+    font-size: 2.4em;
+}
+.btn-home{
+    background: #2ECC71;
+    color: #FFF;
+    padding: 11px 20px;
+    border-radius: 2px;
+    font-weight:500;
+    text-transform: uppercase;
+    margin-top: 63px;
+    display: inline-block;
+    font-size: 14px;
+}
+.subtitleyou{
+    /* font-size: 35px; */
+}
+.title{
+    font-size: 55px;
+}
+#services{
+    background-color: #f17c72;
+    text-align: center;
+    color: #fff;
+    padding: 70px;
+}
+#services.flex-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-services{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* footer */
+footer{
+    background: #323644;
+    color: white;
+    justify-content: center;
+    /* width: 100%; */
+    text-align: center;
+    padding: 20px;
+}
